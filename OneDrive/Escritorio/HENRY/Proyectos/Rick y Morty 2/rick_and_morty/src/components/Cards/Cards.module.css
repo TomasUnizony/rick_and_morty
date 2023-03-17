@@ -1,0 +1,7 @@
+.Cards{
+    display: flex;
+    flex-direction: row;
+    padding: 200px;
+    text-align: center;
+    position: fixed;
+}

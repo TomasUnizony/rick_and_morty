@@ -1,0 +1,18 @@
+.Nav{
+    background-color: rgba(4, 56, 82, 0.80);
+    border: 5px solid black;
+    height: 70px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.NavText{
+    color: white;
+}
+
+.hr{
+   border-color: black;
+   border-style: double;
+}
