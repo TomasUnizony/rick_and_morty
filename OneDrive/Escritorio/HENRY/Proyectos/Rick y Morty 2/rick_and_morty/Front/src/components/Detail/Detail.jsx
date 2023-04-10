@@ -12,7 +12,7 @@ function Detail(){
 
     useEffect(() => {
         const key = "c82202392a6c.f21bf49c7763dfa003a3";
-        axios(`https://be-a-rym.up.railway.app/api/character/${detailId}?key=${key}`).then((response) =>
+        axios(`http://localhost:3001/rickandmorty/detail/${detailId}`).then((response) =>
         setCharacter(response.data)
         )
       }, []);

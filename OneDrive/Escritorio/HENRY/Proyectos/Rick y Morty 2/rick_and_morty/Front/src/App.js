@@ -28,8 +28,8 @@ function App () {
   const location = useLocation();
 
   function onSearch(character) {
-    const key = "c82202392a6c.f21bf49c7763dfa003a3";
-   fetch(`https://be-a-rym.up.railway.app/api/character/${character}?key=${key}`)
+    // const key = "c82202392a6c.f21bf49c7763dfa003a3";
+   fetch(`http://localhost:3001/rickandmorty/onsearch/${character}`)
       .then((response) => response.json())
       .then((data) => {
          if (data.name) {
